@@ -1,11 +1,13 @@
 # Inside Swift’s Memory Management
+### ARC, Runtime, and Compiler Behavior
 
 This repository contains a technical deep dive into Swift’s memory management model,
-with a focus on how Automatic Reference Counting (ARC) is implemented in practice.
+focusing on Automatic Reference Counting (ARC), runtime object lifecycles, and
+compiler behavior.
 
-The paper is based on direct analysis of the Swift runtime and compiler sources and
-explains how Swift manages object lifetimes, reference counting, and dynamic dispatch
-at an implementation level.
+The paper explains how Swift manages memory at an implementation level by examining
+runtime data structures, reference-counting states, existential containers, and
+compiler optimizations, based directly on the Swift source code.
 
 ## Contents
 - **Inside_Swifts_Memory_Management.pdf** — full paper

@@ -1,4 +1,5 @@
-# Inside Swift’s Memory Management: ARC, Runtime, and Compiler Behavior
+# Inside Swift’s Memory Management
+### ARC, Runtime, and Compiler Behavior
 
 This repository contains a technical deep dive into Swift’s memory management model,
 focusing on Automatic Reference Counting (ARC), runtime object lifecycles, and
@@ -9,7 +10,7 @@ runtime data structures, reference-counting states, existential containers, and
 compiler optimizations, based directly on the Swift source code.
 
 ## Contents
-- **Inside_Swifts_Memory_Management.pdf** — full paper
+- **[Inside_Swifts_Memory_Management.pdf](./Inside_Swifts_Memory_Management.pdf)** — full paper
 
 ## Topics covered
 - Heap vs stack allocation in Swift
